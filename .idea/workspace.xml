@@ -40,18 +40,15 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e83618af-bdeb-46a6-be74-097d323a50aa" name="Default" comment="Added 2 Buttons with switch on detail page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewSantschi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewZeller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/detailviewsantschi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/detailviewzeller.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="e83618af-bdeb-46a6-be74-097d323a50aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java" />
+      <change type="MOVED" beforePath="C:\development\projects\android\howoldis\src\ch\santo\howoldis\DetailViewSantschi.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java" />
+      <change type="MOVED" beforePath="C:\development\projects\android\howoldis\src\ch\santo\howoldis\DetailViewZeller.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewZeller.java" />
+      <change type="MOVED" beforePath="C:\development\projects\android\howoldis\src\ch\santo\howoldis\MyActivity.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/detailviewsantschi.xml" afterPath="$PROJECT_DIR$/res/layout/detailviewsantschi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/detailviewzeller.xml" afterPath="$PROJECT_DIR$/res/layout/detailviewzeller.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="howoldis.iws" />
@@ -116,11 +113,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java">
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="500" selection-end="500" vertical-scroll-proportion="0.4704797" vertical-offset="0" max-vertical-offset="578">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="15266">
+              <folding>
+                <marker date="1390671302624" expanded="true" signature="59:47991" placeholder="..." />
+                <marker date="1390671302624" expanded="true" signature="1294:1410" placeholder="..." />
+                <marker date="1390671302624" expanded="true" signature="47917:47980" placeholder="..." />
+                <marker date="1390671302624" expanded="true" signature="47917:47965" placeholder="..." />
+                <marker date="1390671302624" expanded="true" signature="47917:47952" placeholder="..." />
+                <marker date="1390671302624" expanded="true" signature="47917:47934" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,10 +141,10 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="3" column="21" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding>
                 <element signature="e#291#309#0" expanded="true" />
-                <element signature="e#424#442#0" expanded="true" />
+                <element signature="e#436#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,31 +152,31 @@
       </file>
       <file leaf-file-name="detailviewsantschi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/detailviewsantschi.xml">
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
+          <provider editor-type-id="text-editor">
+            <state line="32" column="34" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="748">
               <folding>
-                <element signature="e#572#590#0" expanded="true" />
+                <element signature="e#570#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetailViewSantschi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewSantschi.java">
+      <file leaf-file-name="DateCalculator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="12" column="10" selection-start="266" selection-end="266" vertical-scroll-proportion="0.36106196" vertical-offset="0" max-vertical-offset="565">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DetailViewZeller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewZeller.java">
+        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewZeller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="6" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -184,39 +188,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="15" selection-start="645" selection-end="645" vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="357">
+            <state line="29" column="15" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-16.148148" vertical-offset="57" max-vertical-offset="595">
               <folding>
                 <element signature="e#572#588#0" expanded="true" />
+                <element signature="e#839#855#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="DetailViewSantschi.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codeStyleSettings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="18" column="37" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -246,10 +230,14 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewSantschi.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/detailviewzeller.xml" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewZeller.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/res/layout/detailviewzeller.xml" />
+        <option value="$PROJECT_DIR$/res/layout/detailviewsantschi.xml" />
+        <option value="$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java" />
+        <option value="$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java" />
       </list>
     </option>
   </component>
@@ -339,6 +327,32 @@
               <option name="myItemId" value="howoldis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howoldis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howoldis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howoldis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -351,6 +365,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howoldis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howoldis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,7 +632,7 @@
     </configuration>
     <configuration default="false" name="howoldis" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="howoldis" />
-      <option name="ACTIVITY_CLASS" value="ch.santo.howoldis.MyActivity" />
+      <option name="ACTIVITY_CLASS" value="ch.santo.howoldis.activities.MyActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -634,12 +666,17 @@
       <created>1390657534232</created>
       <updated>1390657534232</updated>
       <workItem from="1390657535503" duration="1742000" />
-      <workItem from="1390665578194" duration="2974000" />
+      <workItem from="1390665578194" duration="5173000" />
     </task>
+    <task id="LOCAL-00001" summary="Added 2 Buttons with switch on detail page">
+      <created>1390669180764</created>
+      <updated>1390669180764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4716000" />
+    <option name="totallyTimeSpent" value="6915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -706,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
           <folding />
@@ -742,18 +779,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/detailviewzeller.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="645" selection-end="645" vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="e#572#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -771,20 +796,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="18" column="41" selection-start="500" selection-end="500" vertical-scroll-proportion="0.4704797" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14263">
           <folding>
-            <element signature="e#291#309#0" expanded="true" />
-            <element signature="e#424#442#0" expanded="true" />
+            <marker date="1390671302624" expanded="true" signature="59:47991" placeholder="..." />
+            <marker date="1390671302624" expanded="true" signature="1294:1410" placeholder="..." />
+            <marker date="1390671302624" expanded="true" signature="47917:47980" placeholder="..." />
+            <marker date="1390671302624" expanded="true" signature="47917:47965" placeholder="..." />
+            <marker date="1390671302624" expanded="true" signature="47917:47952" placeholder="..." />
+            <marker date="1390671302624" expanded="true" signature="47917:47934" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
+        <state line="3" column="21" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding>
+            <element signature="e#291#309#0" expanded="true" />
+            <element signature="e#436#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/detailviewsantschi.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="32" column="34" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="748">
+          <folding>
+            <element signature="e#570#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,35 +846,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/detailviewsantschi.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.21061946" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/detailviewzeller.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="29" column="15" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-16.148148" vertical-offset="57" max-vertical-offset="595">
           <folding>
-            <element signature="e#572#590#0" expanded="true" />
+            <element signature="e#572#588#0" expanded="true" />
+            <element signature="e#839#855#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewSantschi.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewZeller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="6" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewZeller.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="18" column="37" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="500" selection-end="500" vertical-scroll-proportion="0.4704797" vertical-offset="0" max-vertical-offset="578">
+        <state line="12" column="10" selection-start="266" selection-end="266" vertical-scroll-proportion="0.36106196" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
       </provider>

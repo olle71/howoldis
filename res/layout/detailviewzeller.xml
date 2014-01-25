@@ -13,4 +13,18 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/zeller"
             android:id="@+id/textView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/kinder"
+            android:id="@+id/textView2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView3"/>
 </LinearLayout>

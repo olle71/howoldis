@@ -1,9 +1,12 @@
-package ch.santo.howoldis;
+package ch.santo.howoldis.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import ch.santo.howoldis.R;
+import ch.santo.howoldis.activities.DetailViewSantschi;
+import ch.santo.howoldis.activities.DetailViewZeller;
 
 public class MyActivity extends Activity {
     /**
