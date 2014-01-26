@@ -9,21 +9,31 @@ import org.joda.time.*;
  */
 public class DateCalculator {
 
-    public static String getAge() {
+    public static String getAge(LocalDate birthdate) {
 
-        LocalDate birthdate = new LocalDate (2006, 7, 11);
 
         LocalDate now = new LocalDate();
         Years yearsBetween = Years.yearsBetween(birthdate, now);
-        Months monthsBetween = Months.monthsBetween(birthdate, now);
-        Days daysBetween = Days.daysBetween(birthdate, now);
 
-        int yearsinMonths = yearsBetween.getYears()*12;
-        int months = monthsBetween.getMonths() - yearsinMonths;
+        LocalDate birthdaythisyear = new LocalDate(now.getYear(),birthdate.getMonthOfYear(),birthdate.getDayOfMonth());
+        LocalDate birthdaylastyear = new LocalDate(now.getYear()-1,birthdate.getMonthOfYear(),birthdate.getDayOfMonth());
 
-        boolean test = isLeapYear(2000);
-        boolean test2 = isLeapYear(2001);
-        return String.valueOf(yearsBetween.getYears())+" Jahre "+String.valueOf(months)+" Monate";
+        Months monthsBetween;
+        if (birthdaythisyear.isBefore(now)) {
+            monthsBetween = Months.monthsBetween(birthdaythisyear, now);
+        }
+        else if (birthdaythisyear.isAfter(now)) {
+            monthsBetween = Months.monthsBetween(birthdaylastyear, now);
+        } else  {
+            monthsBetween = Months.months(0);
+        }
+
+        LocalDate birthdaythismonth = new LocalDate(now.getYear(), now.getMonthOfYear(), birthdate.getDayOfMonth());
+        Days daysBetween = Days.daysBetween(birthdaythismonth, now);
+
+        return String.valueOf(yearsBetween.getYears())+" Jahre "+
+               String.valueOf(monthsBetween.getMonths())+" Monate "+
+                String.valueOf(daysBetween.getDays())+" Tage";
 
     }
 
