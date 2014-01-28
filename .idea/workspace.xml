@@ -38,9 +38,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e83618af-bdeb-46a6-be74-097d323a50aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="howoldis.iws" />
@@ -112,21 +111,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" line="20" class="ch.santo.howoldis.activities.MyActivity" package="ch.santo.howoldis.activities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -146,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonsDBHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PersonsDBHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.49029982" vertical-offset="96" max-vertical-offset="952">
+            <state line="9" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,28 +144,38 @@
       <file leaf-file-name="PersonsContract.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="21" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="663">
+            <state line="77" column="8" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.3291815" vertical-offset="886" max-vertical-offset="1734">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="text-editor">
+            <state line="6" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/app/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="77656">
-              <folding>
-                <element signature="e#0#192272#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="79271">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,7 +183,7 @@
       <file leaf-file-name="Instrumentation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/app/Instrumentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1095" column="0" selection-start="41370" selection-end="41370" vertical-scroll-proportion="0.0" vertical-offset="17462" max-vertical-offset="26996">
+            <state line="1095" column="0" selection-start="41370" selection-end="41370" vertical-scroll-proportion="0.0" vertical-offset="18615" max-vertical-offset="28050">
               <folding />
             </state>
           </provider>
@@ -198,7 +192,7 @@
       <file leaf-file-name="DetailViewSantschi.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="66" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612">
+            <state line="19" column="70" selection-start="497" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -241,7 +235,6 @@
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewSantschi.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/DetailViewZeller.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/res/layout/detailviewzeller.xml" />
@@ -255,8 +248,9 @@
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDB.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsContract.java" />
-        <option value="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java" />
       </list>
     </option>
   </component>
@@ -311,7 +305,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -430,6 +423,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -444,7 +438,7 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0019d4f337ba7e" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GalaxySII" />
-    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -831,7 +825,8 @@
       <workItem from="1390665578194" duration="15276000" />
       <workItem from="1390766609170" duration="3860000" />
       <workItem from="1390853590063" duration="148000" />
-      <workItem from="1390853812998" duration="6334000" />
+      <workItem from="1390853812998" duration="6737000" />
+      <workItem from="1390941066226" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 Buttons with switch on detail page">
       <created>1390669180764</created>
@@ -849,18 +844,22 @@
       <created>1390776900413</created>
       <updated>1390776900413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding first try with database sqlite&#10;">
+      <created>1390862561679</created>
+      <updated>1390862561679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27360000" />
+    <option name="totallyTimeSpent" value="31670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3257403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -874,14 +873,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.50084037" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26809955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26765376" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23801917" sideWeight="0.49907407" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23801917" sideWeight="0.49907407" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24600638" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,7 +890,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261851" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -914,7 +913,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23854166" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26809955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26809955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -938,7 +937,8 @@
     <MESSAGE value="Added a dummy Date Calculator to findout how to change a text at runtime&#10;" />
     <MESSAGE value="Added Android Testmodule and added two helper methods in DateCalculator&#10;" />
     <MESSAGE value="Calculation Years, Months and Days added&#10;My 4 Girls added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculation Years, Months and Days added&#10;My 4 Girls added" />
+    <MESSAGE value="Adding first try with database sqlite&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding first try with database sqlite&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -948,6 +948,67 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2402" selection-end="2402" vertical-scroll-proportion="0.0" vertical-offset="655" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="952">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="79271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1095" column="0" selection-start="41370" selection-end="41370" vertical-scroll-proportion="0.0" vertical-offset="18615" max-vertical-offset="28050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="66" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/detailviewsantschi.xml">
+      <provider editor-type-id="text-editor">
+        <state line="92" column="13" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="15" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1224">
@@ -998,9 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="28" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testmodule/AndroidManifest.xml">
@@ -1061,16 +1120,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
@@ -1115,34 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/Age.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="0.33274338" vertical-offset="67" max-vertical-offset="1360">
-          <folding>
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#703#704#0" expanded="false" />
-            <element signature="e#733#734#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#839#840#0" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-            <element signature="e#1020#1021#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1093#1094#0" expanded="false" />
-            <element signature="e#1124#1125#0" expanded="false" />
-            <element signature="e#1154#1155#0" expanded="false" />
-            <element signature="e#1197#1198#0" expanded="false" />
-            <element signature="e#1235#1236#0" expanded="false" />
-            <element signature="e#1266#1267#0" expanded="false" />
-            <element signature="e#1296#1297#0" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1377#1378#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="15" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="0.33274338" vertical-offset="67" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -1186,9 +1208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.21408711" vertical-offset="0" max-vertical-offset="1079">
-          <folding />
-        </state>
+        <state line="9" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.21408711" vertical-offset="0" max-vertical-offset="1079" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/detailviewsantschi.xml">
@@ -1199,13 +1219,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="66" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
@@ -1222,19 +1235,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="77418">
-          <folding>
-            <element signature="e#0#192272#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,10 +1251,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.49029982" vertical-offset="96" max-vertical-offset="952">
+        <state line="9" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="497" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="8" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.3291815" vertical-offset="886" max-vertical-offset="1734">
+          <folding />
         </state>
       </provider>
     </entry>
