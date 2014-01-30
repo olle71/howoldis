@@ -3,8 +3,10 @@
           package="ch.santo.howoldis"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="14"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16"/>
+    <application android:theme="@android:style/Theme.Holo.Light"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher">
         <activity android:name=".activities.MyActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -12,7 +14,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activities.DetailViewSantschi"/>
+        <activity android:name=".activities.DetailViewSantschi"
+            android:label="@string/title_activity_display_message">
+            <!--android:parentActivityName=".activities.MyActivity">-->
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MyActivity" />
+        </activity>
         <activity android:name=".activities.DetailViewZeller"/>
     </application>
 </manifest>

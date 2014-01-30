@@ -14,6 +14,7 @@ public class DetailViewSantschi extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detailviewsantschi);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         //get the textView-Element from the view
         TextView t=(TextView)findViewById(R.id.alterJael);

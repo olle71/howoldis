@@ -4,4 +4,7 @@
     <string name="testtext">Oliver Santschi</string>
     <string name="zeller">Stefan Zeller</string>
     <string name="details">Details</string><string name="kinder">Kinder</string>
+    <string name="action_search">Person suchen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_display_message">Oliver Santschi</string>
 </resources>
