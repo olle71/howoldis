@@ -2,6 +2,8 @@ package ch.santo.howoldis.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.view.MenuItem;
 import android.widget.TextView;
 import ch.santo.howoldis.R;
 import ch.santo.howoldis.business.DateCalculator;
@@ -28,5 +30,16 @@ public class DetailViewSantschi extends Activity {
 
         t=(TextView)findViewById(R.id.alterSiri);
         t.setText(DateCalculator.getAge(new LocalDate (2012, 3, 13)));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
