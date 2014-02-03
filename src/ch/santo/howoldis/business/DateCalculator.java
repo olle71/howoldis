@@ -31,9 +31,13 @@ public class DateCalculator {
         LocalDate birthdaythismonth = new LocalDate(now.getYear(), now.getMonthOfYear(), birthdate.getDayOfMonth());
         Days daysBetween = Days.daysBetween(birthdaythismonth, now);
 
+        //if the actual day is befor the birthdaythismonth, the value is below 0. Switch it to positive
+        int days = daysBetween.getDays();
+        if (days<0) days /= (-1);
+
         return String.valueOf(yearsBetween.getYears())+" Jahre "+
                String.valueOf(monthsBetween.getMonths())+" Monate "+
-                String.valueOf(daysBetween.getDays())+" Tage";
+                String.valueOf(days)+" Tage";
 
     }
 
