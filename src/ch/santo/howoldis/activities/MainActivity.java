@@ -29,17 +29,9 @@ public class MainActivity extends Activity {
 
         //Create Liste
         final ListView listview = (ListView) findViewById(R.id.listview);
-
         final ArrayList<String> list = PersonService.findAll(this);
-
-
         final StableArrayAdapter adapter = new StableArrayAdapter(this,
                 android.R.layout.simple_list_item_1, list);
-
-        // create an array of Strings, that will be put to our ListActivity
-//        ArrayAdapter<Model> adapter = new InteractiveArrayAdapter(this,
-//                getModel());
-//        setListAdapter(adapter);
         listview.setAdapter(adapter);
 
 

@@ -44,14 +44,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e83618af-bdeb-46a6-be74-097d323a50aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/business/PersonService.java" />
-      <change type="DELETED" beforePath="C:\development\projects\android\howoldis\src\ch\santo\howoldis\activities\MyActivity.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\development\projects\android\howoldis\Testmodule\src\ch\santo\howoldis\activities\MyActivityTest.java" afterPath="$PROJECT_DIR$/Testmodule/src/ch/santo/howoldis/activities/MainActivityTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main_activity_actions.xml" afterPath="$PROJECT_DIR$/res/menu/main_activity_actions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java" afterPath="$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="howoldis.iws" />
@@ -132,83 +125,7 @@
     <favorites_list name="howoldis" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DetailViewSantschi.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="35" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="850">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="100" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="32" selection-start="2683" selection-end="2683" vertical-scroll-proportion="2.7112677" vertical-offset="0" max-vertical-offset="2640">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3345#3362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_activity_actions.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/main_activity_actions.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <element signature="e#237#260#0" expanded="true" />
-                <element signature="e#428#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2951#2959#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonsDBHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="1130" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -871,7 +788,7 @@
       <workItem from="1391208413803" duration="1014000" />
       <workItem from="1391460715586" duration="495000" />
       <workItem from="1391461224286" duration="4935000" />
-      <workItem from="1391630588131" duration="2875000" />
+      <workItem from="1391630588131" duration="3185000" />
     </task>
     <task id="LOCAL-00001" summary="Added 2 Buttons with switch on detail page">
       <created>1390669180764</created>
@@ -905,11 +822,15 @@
       <created>1391461793313</created>
       <updated>1391461793313</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Simple list. Read data from db. Add Testdata -Action Button added">
+      <created>1391633538422</created>
+      <updated>1391633538422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46241000" />
+    <option name="totallyTimeSpent" value="46551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -998,7 +919,8 @@
     <MESSAGE value="Put data into database and read. First try and dirty coding. Clean up later&#10;" />
     <MESSAGE value="Added new launcher Icon&#10;Added back functionality on details Oliver Santschi&#10;" />
     <MESSAGE value="Bugfix: When the actual day is below the birthday the number of days is not correct&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bugfix: When the actual day is below the birthday the number of days is not correct&#10;" />
+    <MESSAGE value="Simple list. Read data from db. Add Testdata -Action Button added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple list. Read data from db. Add Testdata -Action Button added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1008,31 +930,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/DateCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2402" selection-end="2402" vertical-scroll-proportion="0.0" vertical-offset="655" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="799">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3362#0" expanded="true" />
+            <element signature="e#3125#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1148,7 +1051,7 @@
         <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3362#0" expanded="true" />
+            <element signature="e#3125#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1297,13 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="35" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../android/android-sdk/sources/android-14/android/view/ViewPropertyAnimator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="55" selection-start="6329" selection-end="6334" vertical-scroll-proportion="-0.8097015" vertical-offset="2423" max-vertical-offset="14501" />
@@ -1314,7 +1210,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="100" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+        <state line="1" column="35" selection-start="100" selection-end="104" vertical-scroll-proportion="0.032945737" vertical-offset="0" max-vertical-offset="516">
           <folding />
         </state>
       </provider>
@@ -1328,14 +1224,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/persistence/PersonsDBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="1130" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="918">
+        <state line="27" column="42" selection-start="1130" selection-end="1145" vertical-scroll-proportion="0.36267605" vertical-offset="219" max-vertical-offset="918">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/business/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
+        <state line="53" column="0" selection-start="2074" selection-end="2074" vertical-scroll-proportion="1.8661972" vertical-offset="0" max-vertical-offset="1860">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2951#2959#0" expanded="true" />
@@ -1345,7 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/main_activity_actions.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="11" column="25" selection-start="568" selection-end="568" vertical-scroll-proportion="0.32922536" vertical-offset="0" max-vertical-offset="568">
           <folding>
             <element signature="e#237#260#0" expanded="true" />
             <element signature="e#428#453#0" expanded="true" />
@@ -1355,11 +1251,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="32" selection-start="2683" selection-end="2683" vertical-scroll-proportion="2.7112677" vertical-offset="0" max-vertical-offset="2640">
+        <state line="34" column="0" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-2.169014" vertical-offset="1912" max-vertical-offset="2480">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3345#3362#0" expanded="true" />
+            <element signature="e#3125#3142#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/santo/howoldis/activities/DetailViewSantschi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="35" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.9375" vertical-offset="34" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
