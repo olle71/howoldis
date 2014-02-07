@@ -67,8 +67,10 @@ public class PersonService {
         );
 
 
-        cursor.moveToFirst();
+
         final ArrayList<String> returnList = new ArrayList<String>();
+        if ((cursor==null)||(cursor.getCount()==0)) return returnList;
+                cursor.moveToFirst();
         while (cursor.isLast()==false) {
             long itemId = cursor.getLong(cursor.getColumnIndexOrThrow(PersonsContract.Person._ID));
             String nachname = cursor.getString(cursor.getColumnIndexOrThrow(PersonsContract.Person.COLUMN_NAME_LASTNAME));
